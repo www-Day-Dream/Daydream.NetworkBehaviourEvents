@@ -6,7 +6,7 @@ repository = "https://thunderstore.io"
 
 [package]
 namespace = "www_Day_Dream"
-name = "Network Behaviour Event Injector"
+name = "Network_Behaviour_Event_Injector"
 description = "A preload patcher that injects virtual NetworkBehaviour methods on all sub-classes."
 websiteUrl = "https://github.com/www-Day-Dream/Daydream.NetworkBehaviourEvents"
 containsNsfwContent = false

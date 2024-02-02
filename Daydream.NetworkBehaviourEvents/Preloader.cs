@@ -12,19 +12,6 @@ using MethodAttributes = Mono.Cecil.MethodAttributes;
 
 namespace Daydream.NetworkBehaviourEvents;
 
-public class Test
-{
-    public virtual void OnTest(){}
-}
-
-public class Tester : Test
-{
-    public override void OnTest()
-    {
-        base.OnTest();
-    }
-}
-
 public static class Preloader
 {
     private const string NetworkBehaviourFullName = "Unity.Netcode.NetworkBehaviour";
